@@ -1,0 +1,40 @@
+{
+  "name": "passport-bitrabbit-oauth2",
+  "version": "1.0.0",
+  "description": "strategy for bitrabbit",
+  "keywords": [
+    "passport",
+    "bitrabbit",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "main": "./lib",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --require test/bootstrap/node test/*.test.js test/**/*.test.js"
+  },
+  "author": {
+    "name": "song jim",
+    "email": "sjtiande@gmail.com"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "dependencies": {
+    "passport-oauth2": "^1.4.0"
+  },
+  "devDependencies": {
+    "make-node": "0.3.x",
+    "mocha": "1.x.x",
+    "chai": "2.x.x",
+    "chai-passport-strategy": "1.x.x"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ]
+}
